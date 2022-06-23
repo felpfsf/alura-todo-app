@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>To-Do App</title>
+  </head>
+  <body>
+    <div class="todo">
+      <!-- Title -->
+      <h1 class="todo--title">To Do App</h1>
+      <!-- Form -->
+      <form action="" class="todo--form">
+        <input
+          type="text"
+          name=""
+          id=""
+          class="form--input"
+          data-form-input
+          maxlength="20"
+        /><input type="datetime-local" class="date--input" data-form-date />
+        <button class="form--button" data-form-button>New Task</button>
+      </form>
+      <!-- List -->
+      <ul class="todo--list" data-list>
+        <!-- task list will be injected here -->
+        <!-- <li class="task"><p class="content">Teste</p><button class="check-button">Complete</button><button class="check-button">Complete</button></li> -->
+      </ul>
+      <!--  -->
+    </div>
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
