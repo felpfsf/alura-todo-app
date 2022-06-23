@@ -11,7 +11,7 @@
 Lista de tarefas desenvolvida durante o curso JS na Web da trilha Front-end da Alura
 
 ## Aprendizados
-...
+Armazenamento local e manipulação dos dados, como deletar e exibir dados concluídos
 
 ## 🛠 Stack utilizada
 
